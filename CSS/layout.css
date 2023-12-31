@@ -1,0 +1,28 @@
+/* Log in Page ----------------------------- */
+
+
+.log-in-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 17rem;
+}
+
+.log-in-fixed {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    filter: blur(3.5rem);
+} 
+
+
+.log-in-log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+/* Sign up Page ------------------------------*/

@@ -1,0 +1,160 @@
+/* COLOR PALETTE -------------------------------*/
+:root {
+    --color-dark: #2E343A;
+    --color-green: #15B215;
+    --color-white: #FFF;
+    --color-blue: #4796E5;
+}
+
+.green{
+    color: var(--color-green);
+}
+
+.dark {
+    color: var(--color-dark);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.blue{
+    color: var(--color-blue);
+}
+
+.backg-green {
+    background-color: var(--color-green);
+}
+
+.backg-dark {
+    background-color: var(--color-dark);
+}
+
+.backg-white {
+    background-color: var(--color-white);
+}
+
+.backg-blue {
+    background-color: var(--color-blue);
+}
+
+
+/* body ------------------------------------- */
+
+body {
+    background-size: 100% 100%;
+    background: var(--color-dark);
+}
+
+
+/* TYPOGRAPHY -------------------------------*/
+
+html {
+    /* 16 * 62.5% = 10px */
+    font-size: 62.5%;
+    /* we set a rule for all the rem unit to make stuff easier */
+}
+  
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+      "Open Sans", "Helvetica Neue", sans-serif;
+
+    /* 1.5 times the current font size */
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+
+/* @media screen and (max-width: 480px) {
+    html {
+        font-size: 62.5%;
+    }
+    
+} */
+
+
+/* logo-text -------------------------------*/
+
+.logo-text {
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.gigglegains-text,
+.welcome-to-text {
+    margin-top: 3px;
+}
+
+
+/* sign in login bottons ------------------------*/
+
+
+.log-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17rem;
+    
+}
+
+.log-in {
+    width: 25rem;
+    height: 6rem;
+    margin-bottom: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 1.7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sign-up {
+    width: 25rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 1.7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/* tip pargraph ----------------------------- */ 
+
+.tip {
+    margin: 0.5rem;
+}
+
+
+/* log in box ------------------------------*/ 
+
+
+.EP-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border: 0;
+    border-radius: 1.7rem;
+    height: 5rem;
+    width: 26rem;
+    padding: 0rem 2rem;
+    font-size: 16px;
+
+}
