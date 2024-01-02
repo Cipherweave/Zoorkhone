@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
- 
     margin-top: 17rem;
 }
 
@@ -14,6 +13,7 @@
     z-index: -1;
     width: 100%;
     filter: blur(3.5rem);
+    opacity: 0.3;
 } 
 
 
@@ -26,3 +26,28 @@
 
 
 /* Sign up Page ------------------------------*/
+
+
+.sign-up-text-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.7rem;
+}
+
+
+
+.sign-up-sign-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.sign-up-google-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+
+
+}
