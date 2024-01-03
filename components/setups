@@ -1,0 +1,14 @@
+<div>
+  <div class="layout-setup-basic-setup">
+    <button type="button" class="backg-dark button-basic-setup">
+      <h2 class="yellow">Basic Setup ></h2>
+    </button>
+  </div>
+  <div>
+    <div class="layout-setup-advanced-setup">
+      <button type="button" class="backg-dark button-advanced-setup">
+        <h2 class="pink">Advanced Setup ></h2>
+      </button>
+    </div>
+  </div>
+</div>

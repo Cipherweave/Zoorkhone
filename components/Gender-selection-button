@@ -1,0 +1,4 @@
+<div class="button-gender-div">
+  <button class="button-gender-male"><p>Male</p></button>
+  <button class="button-gender-female"><p>Female</p></button>
+</div>
