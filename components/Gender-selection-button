@@ -1,4 +1,4 @@
-<div class="button-gender-div">
+<div class="button-gender">
   <button class="button-gender-male"><p>Male</p></button>
   <button class="button-gender-female"><p>Female</p></button>
 </div>

@@ -1,3 +1,5 @@
 <button type="button" class="log-in backg-green"><h2>Log in</h2></button>
 
 <button type="button" class="sign-up backg-blue"><h2>sign up</h2></button>
+
+<button type="button" class="next-btn backg-green"><h2>Next</h2></button>

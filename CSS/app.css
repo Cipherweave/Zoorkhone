@@ -96,6 +96,11 @@ p {
     font-weight: 100;
 }
 
+
+.p-middle {
+    display: flex;
+    justify-content: center;
+}
 /* @media screen and (max-width: 480px) {
     html {
         font-size: 62.5%;
@@ -167,6 +172,20 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.next-btn {
+    border: 0;
+    width: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 5rem;
+}
+
+.next-btn:focus {
+    background-color: var(--color-dark);
+}
 
 
 
@@ -340,7 +359,72 @@ p {
 }
 
 
-.button-gender-div {
+.button-gender {
     display: flex;   
+}
+
+
+
+/* Date of birth Button ----------------------------- */ 
+
+
+.date-of-birth-btn {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border: solid;
+}
+
+
+.date-of-birth-month {
+    width: 14.1rem;
+    height: 5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.date-of-birth-day {
+    width: 7.7rem;
+    height: 5rem;
+    border-radius: 1.7rem 0 0 1.7rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.date-of-birth-year {
+    width: 7.7rem;
+    height: 5rem;
+    border-radius: 0 1.7rem 1.7rem 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Weight input btn ---------------------------------*/ 
+
+
+.weight-input-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 5rem;
+    border: solid;
+}
+
+
+
+.weight-input-unit {
+    width: 7rem;
+    border-radius: 0 1.7rem 1.7rem 0;
+    border: var(--color-white);
+    border-left: 0.1rem dashed var(--color-dark);
+}
+
+
+
+.weight-input {
+    width: 23.3rem;
+    border-radius: 1.7rem 0 0 1.7rem;
+    border: 0;
+    
 }

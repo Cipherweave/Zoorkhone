@@ -92,3 +92,11 @@
 
 
 
+/* About you 1 ---------------------*/
+
+.button-gender-div {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
