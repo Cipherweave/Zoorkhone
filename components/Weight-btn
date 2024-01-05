@@ -1,11 +1,12 @@
 <div>
+  <p class="white p-middle margin-top-5-5">Please write down your weight</p>
   <form action="" class="weight-input-btn">
     <input
       type="text"
       name=""
       id="weight"
       placeholder="weight"
-      class="weight-input"
+      class="weight-input EP-box"
     />
     <select name="" id="" class="weight-input-unit">
       <option value="">kg</option>

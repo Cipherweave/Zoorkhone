@@ -101,6 +101,9 @@ p {
     display: flex;
     justify-content: center;
 }
+
+
+
 /* @media screen and (max-width: 480px) {
     html {
         font-size: 62.5%;
@@ -372,19 +375,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
 }
 
 
 .date-of-birth-month {
-    width: 14.1rem;
+    width: 14rem;
     height: 5rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
 .date-of-birth-day {
-    width: 7.7rem;
+    width: 8rem;
     height: 5rem;
     border-radius: 1.7rem 0 0 1.7rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -392,7 +394,7 @@ p {
 
 
 .date-of-birth-year {
-    width: 7.7rem;
+    width: 8rem;
     height: 5rem;
     border-radius: 0 1.7rem 1.7rem 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -406,9 +408,7 @@ p {
 .weight-input-btn {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
     height: 5rem;
-    border: solid;
 }
 
 
@@ -418,13 +418,28 @@ p {
     border-radius: 0 1.7rem 1.7rem 0;
     border: var(--color-white);
     border-left: 0.1rem dashed var(--color-dark);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
 
 .weight-input {
-    width: 23.3rem;
+    width: 18.5rem;
     border-radius: 1.7rem 0 0 1.7rem;
     border: 0;
-    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+input {
+    padding-left: 1.5rem;
+    border: #15B215 solid;
+}
+input::placeholder {
+    font-size: 1.7rem;
+
+}
+
+select {
+    padding-left: 1rem;
 }

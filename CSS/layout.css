@@ -92,11 +92,27 @@
 
 
 
-/* About you 1 ---------------------*/
+/* About you 1 and 2---------------------*/
 
-.button-gender-div {
-    display: inline;
+.margin-top-5-5{
+    margin-top: 5.5rem;
+}
+
+
+.about-you-1-next-btn-div {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    border: solid;
+    margin-top: 13.2rem;
+}
+
+
+
+.about-you-1-about-you-div {
+    margin-top: 10.6rem;
+}
+
+.about-you-2-next-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
 }
