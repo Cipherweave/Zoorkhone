@@ -1,15 +1,15 @@
 {
-  "name": "javascript",
+  "name": "zoorkhone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build CSS/styles.css -o CSS/buildTailwind.css"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.4.0"
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
